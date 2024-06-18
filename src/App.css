@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background:#121212;
+}
+*{
+  font-family: "Saira", sans-serif;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-300%);
+  }
+  100% {
+    transform: translateY(360%);
+  }
+}
+
+.animate-slide {
+  animation: slide 4s forwards; 
+  animation-iteration-count: infinite;
+}
