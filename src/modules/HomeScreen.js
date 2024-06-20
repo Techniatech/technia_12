@@ -6,6 +6,7 @@ import Services from "./Services";
 import OurTeam from "./OurTeam";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Footer from "./Footer";
 
 const HomeScreen = () => {
   return (
@@ -15,9 +16,10 @@ const HomeScreen = () => {
         <SpotLight />
         <WhoAreWe />
         <Services />
-        <OurTeam/>
-        <Projects/>
-        <Contact/>
+        <OurTeam />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
